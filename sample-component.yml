@@ -10,5 +10,4 @@ spec:
   lifecycle: experimental
   owner: team-a
   system: sample-system
-  dependsOn:
-  - 'component:sample2-component'
+  dependsOn: ['component:sample2-component']
