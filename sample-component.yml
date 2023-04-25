@@ -11,6 +11,4 @@ spec:
   owner: team-a
   system: sample-system
   dependsOn:
-  - component: sample2-component
-    relations:
-    - consumes
+  - 'component:sample2-component'
