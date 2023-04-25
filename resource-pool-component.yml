@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Resource-Pool-Consumer
+  name: resource-pool-consumer
   # This is an extra long description with Markdown
   description: |
     [Resource Pool Consumer](http://rp.com) is a consumer application
