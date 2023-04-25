@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: resource-pool-consumption
+  name: carrier-capacity-consumption
   # This is an extra long description with Markdown
   description: |
-    Resource Pool is a consumer application
+    Carrier Capacity is a consumer application
   links:
     - url: https://github.com/prabhu-sunderaraman/for-backstage-sample-service
       title: Github repo
@@ -14,5 +14,5 @@ spec:
   lifecycle: qa
   owner: MS
   system: occd
-  dependsOn: ['resource:resource-pool-eventhub', 'resource:resource-pool-database']
+  dependsOn: ['resource:carrier-capacity-eventhub', 'resource:carrier-capacity-database']
   consumesApis: ['component:capacity-common-library']
