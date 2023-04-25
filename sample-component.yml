@@ -10,4 +10,5 @@ spec:
   lifecycle: experimental
   owner: team-a
   consumesApis:
-    - sample2-component
+  dependsOnComponents:
+  - sample2-component
