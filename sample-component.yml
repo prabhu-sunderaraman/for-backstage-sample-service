@@ -9,5 +9,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
-  dependsOnComponents:
+  system: sample-system
+  dependsOn:
   - sample2-component
