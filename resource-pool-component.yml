@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Resource Pool Consumer
+  # This is an extra long description with Markdown
+  description: |
+    [Resource Pool Consumer](http://rp.com) is a consumer application
+  links:
+    - url: https://github.com/prabhu-sunderaraman/for-backstage-sample-service
+      title: Github repo
+      icon: github
+spec:
+  type: service
+  lifecycle: development
+  owner: MS
+  system: OCCD
