@@ -4,13 +4,14 @@ metadata:
   name: resource-pool-consumer
   # This is an extra long description with Markdown
   description: |
-    [Resource Pool Consumer](http://rp.com) is a consumer application
+    Resource Pool is a consumer application
   links:
     - url: https://github.com/prabhu-sunderaraman/for-backstage-sample-service
       title: Github repo
       icon: github
 spec:
-  type: service
-  lifecycle: development
+  type: consumer
+  lifecycle: qa
   owner: MS
   system: OCCD
+  dependsOn: ['component:capacity-common-library', 'resource:resource-pool-eventhub']

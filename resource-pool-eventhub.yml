@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: resource-pool-eventhub
+  description: Event hub for resource pool
+spec:
+  type: eventhub
+  owner: MS
+  system: OCCD
