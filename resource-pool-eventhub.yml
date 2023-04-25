@@ -6,4 +6,4 @@ metadata:
 spec:
   type: eventhub
   owner: MS
-  system: OCCD
+  system: occd

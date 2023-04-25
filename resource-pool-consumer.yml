@@ -13,5 +13,6 @@ spec:
   type: consumer
   lifecycle: qa
   owner: MS
-  system: OCCD
-  dependsOn: ['component:capacity-common-library', 'resource:resource-pool-eventhub']
+  system: occd
+  dependsOn: ['resource:resource-pool-eventhub']
+  consumesApis: ['component:capacity-common-library']
